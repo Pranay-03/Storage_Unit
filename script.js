@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Replace these with your actual predefined username and password
         const predefinedUsername = "Pranay";
-        const predefinedPassword = "20r11a6701";
+        const predefinedPassword = "Pranay";
         
         if (username === predefinedUsername && password === predefinedPassword) {
             //alert("Login successful!");
