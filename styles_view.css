@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #4caf50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+    margin-left: 20px;
+}
+
+.navbar-title h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #45a049;
+}
+
+/* Embedded Google Drive Folder Styles */
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px); /* Adjust for navbar and padding */
+    padding: 20px;
+}
+
+.google-folder {
+    width: 80%;
+    height: 80vh;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Additional Styles */
+/* Add your additional styles here */
